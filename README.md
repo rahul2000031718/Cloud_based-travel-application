@@ -18,21 +18,21 @@ A cloud-based travel solution is a one-stop application designed to assist custo
 
 ## Requirements and Procedures:
 
--Design your application architecture: Start by planning the architecture of your application, including how the different AWS services will work together. This could include creating a diagram of your application, defining your data model, and deciding on which AWS services you will use.
--Set up your environment: Begin by creating a new AWS account and setting up your environment with AWS services, such as AWS Management Console, AWS CLI, and AWS SDKs.
--Use Amazon S3 to store static files: S3 can be used to store static content like images, videos, and other media files.
--Use Amazon Elastic Beanstalk to deploy and run your application: Elastic Beanstalk is a fully managed service that makes it easy to deploy and scale web applications.
--Use Amazon Route 53 for domain registration and routing: Route 53 is a DNS service that can be used for domain registration and routing.
--Use Amazon CloudFormation for infrastructure as code: CloudFormation can be used to create and manage a collection of AWS resources.
--Use Amazon Cognito for authentication and user management: Cognito can be used to manage user authentication and authorization.
--Use Amazon API Gateway to create RESTful APIs: API Gateway can be used to create RESTful APIs that integrate with your application.
--Use Amazon Lex for conversational interfaces: Lex can be used to create conversational interfaces such as chatbots.
--Use Amazon DynamoDB for NoSQL database: DynamoDB can be used for storing data in a NoSQL database.
--Use Amazon Lambda for serverless computing: Lambda can be used for serverless computing where you can execute your code without provisioning and managing servers.
--Use Amazon SNS for notification service: SNS can be used for sending push notifications to your users.
--Use Amazon CloudWatch for monitoring and logging: CloudWatch can be used to monitor and log your application's performance and events.
--Use Amazon SageMaker for machine learning: SageMaker can be used for machine learning models to enhance your application.
--Use Amazon CodePipeline for continuous integration and delivery: CodePipeline can be used for continuous integration and delivery of your application code.
+*-Design your application architecture: Start by planning the architecture of your application, including how the different AWS services will work together. This could include creating a diagram of your application, defining your data model, and deciding on which AWS services you will use.
+*-Set up your environment: Begin by creating a new AWS account and setting up your environment with AWS services, such as AWS Management Console, AWS CLI, and AWS SDKs.
+*-Use Amazon S3 to store static files: S3 can be used to store static content like images, videos, and other media files.
+*-Use Amazon Elastic Beanstalk to deploy and run your application: Elastic Beanstalk is a fully managed service that makes it easy to deploy and scale web applications.
+*-Use Amazon Route 53 for domain registration and routing: Route 53 is a DNS service that can be used for domain registration and routing.
+*-Use Amazon CloudFormation for infrastructure as code: CloudFormation can be used to create and manage a collection of AWS resources.
+*-Use Amazon Cognito for authentication and user management: Cognito can be used to manage user authentication and authorization.
+*-Use Amazon API Gateway to create RESTful APIs: API Gateway can be used to create RESTful APIs that integrate with your application.
+*-Use Amazon Lex for conversational interfaces: Lex can be used to create conversational interfaces such as chatbots.
+*-Use Amazon DynamoDB for NoSQL database: DynamoDB can be used for storing data in a NoSQL database.
+*-Use Amazon Lambda for serverless computing: Lambda can be used for serverless computing where you can execute your code without provisioning and managing servers.
+*-Use Amazon SNS for notification service: SNS can be used for sending push notifications to your users.
+*-Use Amazon CloudWatch for monitoring and logging: CloudWatch can be used to monitor and log your application's performance and events.
+*-Use Amazon SageMaker for machine learning: SageMaker can be used for machine learning models to enhance your application.
+*-Use Amazon CodePipeline for continuous integration and delivery: CodePipeline can be used for continuous integration and delivery of your application code.
 
 ## Conclusion:
 Building a travel-based application in AWS can provide a reliable, scalable, and secure solution for the travel industry. AWS offers a suite of services that can be used to create a comprehensive travel application, including storage solutions, deployment tools, authentication, and API management.
