@@ -19,8 +19,8 @@ A cloud-based travel solution is a one-stop application designed to assist custo
 ## Requirements and Procedures:
 
 *-Design your application architecture: Start by planning the architecture of your application, including how the different AWS services will work together. This could include creating a diagram of your application, defining your data model, and deciding on which AWS services you will use.<br />
-*-Set up your environment: Begin by creating a new AWS account and setting up your environment with AWS services, such as AWS Management Console, AWS CLI, and AWS SDKs.
-*-Use Amazon S3 to store static files: S3 can be used to store static content like images, videos, and other media files.
+*-Set up your environment: Begin by creating a new AWS account and setting up your environment with AWS services, such as AWS Management Console, AWS CLI, and AWS SDKs.<br />
+*-Use Amazon S3 to store static files: S3 can be used to store static content like images, videos, and other media files.<br />
 *-Use Amazon Elastic Beanstalk to deploy and run your application: Elastic Beanstalk is a fully managed service that makes it easy to deploy and scale web applications.
 *-Use Amazon Route 53 for domain registration and routing: Route 53 is a DNS service that can be used for domain registration and routing.
 *-Use Amazon CloudFormation for infrastructure as code: CloudFormation can be used to create and manage a collection of AWS resources.
