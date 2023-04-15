@@ -8,7 +8,7 @@ Building a cloud powered travel application which helps user to plan and manage 
 
 ## Project Introduction
 
-Travel-O-Cloud is a one stop application targeted to help users plan their lovely trip with the help of features like booking a hotel, checking for weather conditions, helping them store their trip memories in the form of images. And all this by securely logging in to the application using AWS Login or by using social identity providers like Google or Facebook. Users will be able to check for the current weather in their choice of city and book a hotel using Chatbot for their stay. Users will be able to upload the pictures from the places that they have visited and store it safely, moreover, they can also share the pictures on Facebook and retrieve the pictures from their trip to obtain highlights of locations.
+A cloud-based travel solution is a one-stop application designed to assist customers in planning their dream vacation with tools like hotel booking, weather checking, and image storage for trip memories. And you can do all of this by safely connecting into the app using AWS Login or a social identity source like Google or Facebook. Users will be able to use a chatbot to book a hotel and check the weather in the city of their choosing. Users will have the option to upload and privately keep the photos they took while travelling and highlights of the places.
 
 
 ## Diagrammatic Architecture :
