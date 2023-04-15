@@ -1,0 +1,24 @@
+{
+  "name": "travel-o-cloud-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js",
+    "build": "webpack --mode development"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1019.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^7.0.3",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loginreactapp-chatbot-150254-authRole",
+      "UnauthRoleArn": "arn:aws:iam::930136857958:role/amplify-loginreactapp-chatbot-150254-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::930136857958:role/amplify-loginreactapp-chatbot-150254-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-loginreactapp-chatbot-150254-deployment",
+      "UnauthRoleName": "amplify-loginreactapp-chatbot-150254-unauthRole",
+      "StackName": "amplify-loginreactapp-chatbot-150254",
+      "StackId": "arn:aws:cloudformation:us-west-2:930136857958:stack/amplify-loginreactapp-chatbot-150254/81b0cc00-4343-11ec-a598-02d85589fa65",
+      "AmplifyAppId": "d1hrr1lw2lnrcg"
+    }
+  },
+  "auth": {
+    "loginreactapp5aa5caeb": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ],
+        "socialProviders": [
+          "FACEBOOK",
+          "GOOGLE"
+        ],
+        "usernameAttributes": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-loginreactapp-chatbot-150254-deployment/amplify-cfn-templates/auth/loginreactapp5aa5caeb-cloudformation-template.yml",
+        "logicalId": "authloginreactapp5aa5caeb"
+      },
+      "lastPushTimeStamp": "2021-11-11T23:31:40.750Z",
+      "output": {
+        "CreatedSNSRole": "arn:aws:iam::930136857958:role/sns5aa5caeb150254-chatbot",
+        "UserPoolId": "us-west-2_bbPPVxtrQ",
+        "AppClientIDWeb": "ddenik39gfg7ojrbkgu239p78",
+        "AppClientID": "3lmetinv5sa4goql28d2s00cka",
+        "HostedUIDomain": "loginreactappd7a0b266-d7a0b266-chatbot",
+        "IdentityPoolId": "us-west-2:2433d861-f893-483e-a4ef-0a29edf2524a",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:930136857958:userpool/us-west-2_bbPPVxtrQ",
+        "IdentityPoolName": "loginreactapp5aa5caeb_identitypool_5aa5caeb__chatbot",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
+        "UserPoolName": "loginreactapp5aa5caeb_userpool_5aa5caeb"
+      },
+      "lastPushDirHash": "+bOMF1txKfNQIwR2VvXHnZ/1rMM="
+    }
+  },
+  "interactions": {
+    "lexa30b27c2": {
+      "service": "Lex",
+      "providerPlugin": "awscloudformation",
+      "build": true,
+      "lastPackageTimeStamp": "2021-11-11T23:27:35.209Z",
+      "distZipFilename": "lexa30b27c2-44676c424e5955446639-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-loginreactapp-chatbot-150254-deployment",
+        "s3Key": "amplify-builds/lexa30b27c2-44676c424e5955446639-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-loginreactapp-chatbot-150254-deployment/amplify-cfn-templates/interactions/lexa30b27c2-cloudformation-template.json",
+        "logicalId": "interactionslexa30b27c2"
+      },
+      "lastPushTimeStamp": "2021-11-11T23:31:40.750Z",
+      "output": {
+        "FunctionArn": "arn:aws:lambda:us-west-2:930136857958:function:loginreactapp_cfnlambda_cfcf2c3b-chatbot",
+        "Region": "us-west-2",
+        "BotName": "BookTrip_chatbot"
+      },
+      "lastPushDirHash": "G1lsi5mEVKApW592IXdBQ6g+ywM="
+    }
+  }
+}

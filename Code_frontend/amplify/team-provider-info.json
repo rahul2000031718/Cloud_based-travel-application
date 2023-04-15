@@ -1,0 +1,62 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loginreactapp-dev-23814-authRole",
+      "UnauthRoleArn": "arn:aws:iam::493524377038:role/amplify-loginreactapp-dev-23814-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::493524377038:role/amplify-loginreactapp-dev-23814-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-loginreactapp-dev-23814-deployment",
+      "UnauthRoleName": "amplify-loginreactapp-dev-23814-unauthRole",
+      "StackName": "amplify-loginreactapp-dev-23814",
+      "StackId": "arn:aws:cloudformation:us-west-2:493524377038:stack/amplify-loginreactapp-dev-23814/c61df180-3c89-11ec-aa72-066aa7900899",
+      "AmplifyAppId": "d20jocx3re77ch"
+    },
+    "categories": {
+      "auth": {
+        "loginreactapp5aa5caeb": {}
+      }
+    }
+  },
+  "qa": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loginreactapp-qa-222151-authRole",
+      "UnauthRoleArn": "arn:aws:iam::930136857958:role/amplify-loginreactapp-qa-222151-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::930136857958:role/amplify-loginreactapp-qa-222151-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-loginreactapp-qa-222151-deployment",
+      "UnauthRoleName": "amplify-loginreactapp-qa-222151-unauthRole",
+      "StackName": "amplify-loginreactapp-qa-222151",
+      "StackId": "arn:aws:cloudformation:us-west-2:930136857958:stack/amplify-loginreactapp-qa-222151/aa7697f0-42b7-11ec-b4d6-0a39713d1745",
+      "AmplifyAppId": "d1hrr1lw2lnrcg"
+    },
+    "categories": {
+      "auth": {
+        "loginreactapp5aa5caeb": {}
+      }
+    }
+  },
+  "chatbot": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loginreactapp-chatbot-150254-authRole",
+      "UnauthRoleArn": "arn:aws:iam::930136857958:role/amplify-loginreactapp-chatbot-150254-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::930136857958:role/amplify-loginreactapp-chatbot-150254-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-loginreactapp-chatbot-150254-deployment",
+      "UnauthRoleName": "amplify-loginreactapp-chatbot-150254-unauthRole",
+      "StackName": "amplify-loginreactapp-chatbot-150254",
+      "StackId": "arn:aws:cloudformation:us-west-2:930136857958:stack/amplify-loginreactapp-chatbot-150254/81b0cc00-4343-11ec-a598-02d85589fa65",
+      "AmplifyAppId": "d1hrr1lw2lnrcg"
+    },
+    "categories": {
+      "auth": {
+        "loginreactapp5aa5caeb": {}
+      },
+      "interactions": {
+        "lexa30b27c2": {
+          "deploymentBucketName": "amplify-loginreactapp-chatbot-150254-deployment",
+          "s3Key": "amplify-builds/lexa30b27c2-44676c424e5955446639-build.zip"
+        }
+      }
+    }
+  }
+}

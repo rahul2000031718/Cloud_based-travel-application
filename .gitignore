@@ -1,0 +1,8 @@
+node_modules
+mypath
+tmp
+.DS_Store
+prod_build
+build
+server.js
+.env
