@@ -1,6 +1,6 @@
 # CMPE Cloud-powered travel platform
 
-OBJECTIVE:
+## OBJECTIVE:
 Building a cloud powered travel application which helps user to plan and manage trip using the AWS services.
 
 ## Project Introduction
